@@ -146,7 +146,7 @@ blockquote {
     }
 }
 
-@media screen and (min-width: 960px){
+@media screen and (min-width: 1150px){
     .container {
         min-width: 1150px;
     }
@@ -166,8 +166,9 @@ blockquote {
         margin-right: 1.5rem;
     }
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         line-height: 0.9;
+        margin-right: 4rem;
     }
     .rating {
         display: flex;
@@ -189,13 +190,28 @@ blockquote {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 2rem;
-        margin-top: 0;
+        margin-top: 3rem;
         margin-bottom: 0;
     }
     article {
         margin-bottom: 0;
     }
-    article:nth-child(1) {
-        margin-top: 2rem;
+    article:nth-child(2) {
+        margin-top: 1.5rem;
+        margin-bottom: -1.5rem;
+    }
+    article:nth-child(3) {
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+    }
+    .name > h2 {
+        font-size: 1.2rem;
+    }
+    .name > p {
+        font-size: 1.15rem;
+    }
+    blockquote {
+        font-size: 1.08rem;
+        margin-right: 0;
     }
 }
